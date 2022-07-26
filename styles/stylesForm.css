@@ -1,0 +1,20 @@
+.ct-createForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ct-createForm input {
+    width: 200px;
+    margin: 10px;
+}
+
+.ct-createForm textarea {
+    width: 200px;
+    margin: 10px;
+}
+
+.ct-createForm button {
+    margin: 10px;
+}

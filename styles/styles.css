@@ -1,0 +1,23 @@
+.ct-books {
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+    justify-content: space-evenly;
+}
+
+.ct-book {
+    width: 270px;
+    height: 500px;
+}
+
+.ct-img {
+    width: 270px;
+    height: 370px;
+    overflow: hidden;
+}
+
+.ct-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
