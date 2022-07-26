@@ -8,7 +8,7 @@ Basic CRUD
 ***
 ## General Info
 
-This is a basic CRUD of books developed in PHP for educational purposes, without styles, to understand database connections.
+This is a basic CRUD of books with a searcher, developed in PHP for educational purposes with basic styles to understand database connections.
 
 ## Technologies
 PHP and MySql (Xampp)
