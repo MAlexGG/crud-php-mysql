@@ -1,0 +1,22 @@
+.ct-search {
+    display: flex;
+    justify-content: center;
+}
+
+.ct-searchImg {
+    width: 270px;
+    height: 370px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.ct-searchImg img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.ct-searchTxt {
+    width: 50%;
+    margin: 10px;
+}

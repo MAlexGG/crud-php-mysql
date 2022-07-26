@@ -43,6 +43,7 @@ $conn->close(); */
 <body>
     <h1>Books</h1>
     <a href="create.php"><button>Create Book</button></a>
+    <a href="search.php"><button>Search Book</button></a>
     <div class="ct-books">
         <?php 
             while($row = $result->fetch_assoc()) {
