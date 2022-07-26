@@ -10,6 +10,7 @@
     <form action="search-book.php" method="post">
         <input type="text" placeholder="search..." name="search">
         <button type="submit">Search</button>
+        <a href="index.php"><button type="button">Go Back</button></a>
     </form>
 </body>
 </html>

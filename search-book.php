@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 
 $search = $_POST['search'];
 
-$sql = "SELECT * FROM product WHERE name like '%$search%'";
+$sql = "SELECT * FROM product WHERE name like '%$search%' or author like '%$search%'";
 $result = $conn->query($sql);
 
 ?>
@@ -51,7 +51,7 @@ $result = $conn->query($sql);
     }
     $conn->close();
     ?>
-    
+    <a href="index.php"><button>Go Home</button></a>
     
 </body>
 

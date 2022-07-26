@@ -36,12 +36,13 @@ $result = $conn->query($sql);
     ?>
         <a href="index.php"><button>Go Back</button></a>
         <div class="ct-img">
-            <img src=<?php echo $row['imagen']?> alt="">
+            <img src=<?php echo $row['imagen']?> alt="<?php echo $row['name']?>">
         </div>
         <div>
             <p>Book: <?php echo $row['name']?></p>
             <p>Author: <?php echo $row['author']?></p>
             <p>Description: <?php echo $row['description']?></p>
+            <p>ISBN: <?php echo $row['isbn']?></p>
         </div>
     <?php
     }
