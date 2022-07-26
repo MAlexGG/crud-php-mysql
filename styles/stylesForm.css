@@ -18,3 +18,7 @@
 .ct-createForm button {
     margin: 10px;
 }
+
+.ct-buttons {
+    display: flex;
+}

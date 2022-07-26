@@ -25,7 +25,7 @@ $result = $conn->query($sql);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/stylesForm.css">
-    <title>Create Book</title>
+    <title>Update Book</title>
 </head>
 <body>
     <?php 
@@ -37,7 +37,10 @@ $result = $conn->query($sql);
         <input type="text" name="imagen" id="imagen" value="<?php echo $row['imagen']?>">
         <textarea type="text" name="description" id="description"><?php echo $row['description']?></textarea>
         <input type="number" name="isbn" id="isbn" value="<?php echo $row['isbn']?>">
-        <button type="submit">Update</button>
+        <div class="ct-buttons">
+            <button type="submit">Update</button>
+            <a href="./index.php"><button type="button">Cancel</button></a>
+        </div>
     </form>    
     <?php }
     $conn->close();?>

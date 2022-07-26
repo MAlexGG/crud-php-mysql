@@ -14,7 +14,10 @@
         <input type="text" name="imagen" placeholder="imagen of the book">
         <textarea type="text" name="description" placeholder="description of the book"></textarea>
         <input type="number" name="isbn" placeholder="ISBN of the book">
-        <button type="submit">Create</button>
+        <div class="ct-buttons">
+            <button type="submit">Create</button>
+            <a href="./index.php"><button type="button">Cancel</button></a>
+        </div>
     </form>    
 </body>
 </html>
