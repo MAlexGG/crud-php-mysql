@@ -1,5 +1,5 @@
-:books: Basic CRUD that create books
-==============================
+:books: Basic CRUD for books
+=============================
 
 ## Table of Contents
 1. [General Info](#general-info)
